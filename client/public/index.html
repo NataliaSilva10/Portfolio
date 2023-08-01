@@ -1,37 +1,19 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="stylesheet" href="./App.css">
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>Natalia Portfolio</title>
-  </head>
+        <link rel="stylesheet" href="../src/css/style.css">
+
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        <title>Natalia Portfolio </title>
+    </head>
     <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
         <!--===== HEADER =====-->
         <header class="l-header">
             <nav class="nav bd-grid">
@@ -59,9 +41,10 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Natália</span><br> Web Developer</h1>
+                    <h1 class="home__title">HEY<br>I'M <span class="home__title-color">NATÁLIA</span><br> CREATIVE UI/UX DESIGNER AND DEVELOPER.</h1>
+                   
 
-                    <a href="mailto:nataliamirandaus10@gmail.com" class="button">Contact</a>
+                    <a href="mailto:nataliamirandaus10@gmail.com" class="button" id="#button">Let's Talk</a>
                 </div>
 
                 <div class="home__social">
@@ -70,140 +53,110 @@
                     <a href="https://github.com/NataliaSilva10" class="home__social-icon"><i class='bx bxl-github' ></i></a>
                 </div>
 
-                 <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/> --> -->
-                            <image class="home__blob-img" x="60" y="30" href="../images/Natalia6.png"/>
-                       </g>
-                    </svg> 
-                </div>
-            </section>
+             </section> 
 
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
+           <!-- <===== ABOUT =====--> 
+           <section class="about section " id="about">
+            <h2 class="section-title">About me</h2>
 
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="../images/Natalia3.png" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I'm Natalia</h2>
-                    
-                        <p class="about__text">I'm a design-minded web developer based in New York focused on interactive websites. </p>
-                          <!-- <p class="about__text"> I think I was drawn towards a career in tech because I am a huge fan of iterative processes and making things better.</p> -->
-                           <p>I enjoy learning independently but I also completed a software engineer bootcamp to enhance my skills and pick up new ones.</p>   
-                             <p class="about__text"> I decided to start my journey into tech because it's an opportunity to combine my analytical skills with my creative abilities.</p>
-                    </div>                                   
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="../public/images/NataliaProfile.png" alt="">
                 </div>
-            </section>
+                
+                <div>
+                    <h2 class="about__subtitle">I'm Natalia</h2>
+                    <p class="about__text">Full stack developer based in New York, proficient in Python, Java, and MERN technologies. My expertise allows me to tackle complex problems and craft innovative solutions that deliver exceptional value to end-users. </p>
+
+                    <p class="about__text"> Beyond my technical abilities, I also have a keen eye for design. This allows me to advocate for users and create powerful visual designs, wireframes, storyboards, and prototypes. Understanding the technical limitations and challenges that engineers may encounter enables me to bridge the gap between design and development.</p>
+                </div>                                   
+            </div>
+        </section>
             <!--===== SKILLS =====-->
-<section class="skills section" id="skills">
-    <h2 class="section-title">Skills</h2>
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">the primary tools I am working with are:</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
 
-     <div class="row">
-         <div className="col-lg-4">
-            <i class="uil uil-desktop-cloud-alt nav__icon"></i>
-          <h2>Design</h2> 
-        <p>Keeping it simple. Centered on content and functionality.</p>
-       </div>
-       <div className="col-lg-4">
-        <i class="uil uil-arrow nav__icon"></i>
-       <h2>Development</h2>
-    <p>My goals are to focus on clean code and newest technologies.</p>
-  </div>
-    <div className="col-lg-4">
-<i class="uil uil-cloud-slash nav__icon"></i>
-    <h2>Problem Solving</h2>
-    <p>Creative approach to research, analysis and decision making.</p>
-</div>
-    </div>
-     </div>
-
-</div>  
-      <div class="skills section" id="skills">
-        <div class="skills__container bd-grid">          
-            <div>
-                <p class="skills__text">Profesional Skills include both front-end and back-end languages.</p>
-                <div class="skills__data">
-                    <div class="skills__names">
-                        <span class="skills__name">HTML\CSS</span>
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">UX/UI</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="skills__bar skills__html">
-
-                    </div>
-                    <div>
-                        <span class="skills__percentage">95%</span>
-                    </div>
-                </div>
-                <div class="skills__data">
-                    <div class="skills__names">
-                        <span class="skills__name">REACT</span>
-                    </div>
-                    <div class="skills__bar skills__js">
-                        
-                    </div>
-                    <div>
-                        <span class="skills__percentage">85%</span>
-                    </div>
-                </div>
-                <div class="skills__data">
-                    <div class="skills__names">
-                        <span class="skills__name">JAVASCRIPT</span>
-                    </div>
-                    <div class="skills__bar skills__js">
-                        
-                    </div>
-                    <div>
-                        <span class="skills__percentage">85%</span>
+                    
+                    <div>              
+                        <img src="../public/images/skills.webp" alt="" class="skills__img">
                     </div>
                 </div>
-                <div class="skills__data">
-                    <div class="skills__names">
-                        <span class="skills__name">JAVA</span>
-                    </div>
-                    <div class="skills__bar skills__java">
-                        
-                    </div>
-                    <div>
-                        <span class="skills__percentage">75%</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div>              
-                <img src="images/Natalia5.png" alt="" class="skills__img">
-            </div>
-        </div>
-</section>
+            </section>
     <!--===== WORK =====-->
     <section class="work section" id="work">
         <h2 class="section-title">Work</h2>
 
         <div class="work__container bd-grid">
             <a href="https://github.com/NataliaSilva10/wepink-shop" class="work__img">
-                <img src="images/work5.png" alt="">
+                <img src="../public/images/work5.png" alt="">
+            </a> 
+            <a href="https://github.com/NataliaSilva10/photobomb-" class="work__img">
+                <img src="../public/images/work2.jpg" alt="">
             </a>
-            <a href="https://github.com/NataliaSilva10/FitPeanut" class="work__img" id="photo">
-                <img src="images/work6.png" alt="">
-            </a>
-            <a href="https://github.com/NataliaSilva10/GroupProject" class="work__img">
-                <img src="images/work3.jpg" alt="">
+            <a href="https://github.com/NataliaSilva10/apple-webpage" class="work__img" id="photo">
+                <img src="../public/images/work6.jpg" alt="">
             </a>
             <a href="https://github.com/NataliaSilva10/OrangeMusic" class="work__img">
-                <img src="images/work1.png" alt="">
+                <img src="../public/images/work1.jpg" alt="">
             </a>
-        
-            <a href="https://github.com/NataliaSilva10/photobomb-" class="work__img">
-                <img src="images/work2.jpg" alt="">
-            </a>
-            <a href="https://github.com/NataliaSilva10/PokemonAPI" class="work__img">
-                <img src="/images/work4.jpg" alt="">
+            <a href="https://github.com/NataliaSilva10/PokemonAPI" class="work__img" >
+                <img src="../public/images/work4.jpg" alt="">
+            </a>    
+           
+         <a href="https://github.com/NataliaSilva10/GroupProject" class="work__img">
+                <img src="../public/images/work3.jpg" alt="">
             </a>
         </div>
     </section>
@@ -226,8 +179,7 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <!--===== MAIN JS =====-->
-     <script src="../js/main.js" type="text/jsx"></script>
+    <script src="../src/js/main.js"></script>
 </body>
 </html>
- 
 

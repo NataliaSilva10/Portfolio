@@ -11,6 +11,8 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "install": "^0.13.0"
-  }
+    "install": "^0.13.0",
+    "react-typed": "^1.2.0"
+  },
+  "build:dev": "dotenv -e .env.development react-scripts build"
 }
